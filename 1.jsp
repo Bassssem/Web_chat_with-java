@@ -54,7 +54,7 @@ and open the template in the editor.
             %>
             <div id="chat-wrapper">
             <div id="chat-bot-mood">
-                <div id="chat-bot-mood-icon"><img src="images/<% out.print(result1.getString(4));%>" width="30"></div>
+                <div id="chat-bot-mood-icon"><img src="<% out.print(result1.getString(4));%>" width="30"></div>
             <div id="chat-bot-mood-label">
            <span id="chat-bot-mood-text"><% out.print(result1.getString(2)+" : "+result.getString(4)); %></span>
             </div>
