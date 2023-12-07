@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 20, 2023, 10:13:34 AM
+    Author     : fbass
+*/
+
+
+#chat-wrapper #chat-bot-mood #chat-bot-mood-icon,
+#chat-wrapper #chat-bot-mood #chat-bot-mood-label {
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  display: inline-block;
+  
+}
+
+#chat-bot-mood-icon {
+  height: 30px;
+  width: 30px;
+
+}
+
+#chat-bot-mood-label {
+  padding: 5px 15px;
+}
+
